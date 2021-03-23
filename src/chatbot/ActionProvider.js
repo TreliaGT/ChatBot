@@ -3,7 +3,12 @@ class ActionProvider {
       this.createChatBotMessage = createChatBotMessage;
       this.setState = setStateFunc;
     }
-  
+    
+    greet() {
+      const greetingMessage = this.createChatBotMessage("Hi, friend.")
+      this.updateChatbotState(greetingMessage)
+    }
+    
     handleJavascriptList = () => {
       const message = this.createChatBotMessage(
         "Fantastic, I've got the following resources for you on Javascript:",
