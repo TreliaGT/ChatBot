@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.react-chatbot-kit-user-avatar-container {
+  background-color: black;
+}
+
+.botbutton {
+  background-color: #872130;
+  border-color: #872130;
+  color: #fff;
+  padding: 6px;
+  margin-top: 6px;
+}

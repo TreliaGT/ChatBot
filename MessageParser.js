@@ -10,7 +10,10 @@ class MessageParser {
         this.actionProvider.greet();
       }
   
-      if (lowerCaseMessage.includes("javascript")) {
+      if (lowerCaseMessage.includes("coding") || 
+          lowerCaseMessage.includes("javascript") || 
+          lowerCaseMessage.includes("php") ||
+          lowerCaseMessage.includes("layouts")) {
         this.actionProvider.handleJavascriptList();
       }
     }
